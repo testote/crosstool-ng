@@ -228,7 +228,7 @@ upgrade()
     CT_CC_GCC_V_linaro_6_3)         select_linaro GCC; replace CT_GCC_LINARO_V_6_4_2018_05;;
     CT_CLOOG_V_0_18_0)              replace CT_CLOOG_V_0_18_1;;
     CT_CLOOG_V_0_18_1)              replacement_for CT_CLOOG_V_0_18_0;;
-    CT_EXPAT_V_2_2_0)               replace CT_EXPAT_V_2_2_6;; # 2.2.6 was not available in ct-ng 1.23.0 - no replacement_for
+    CT_EXPAT_V_2_4_1)               replace CT_EXPAT_V_2_2_6;; # 2.2.6 was not available in ct-ng 1.23.0 - no replacement_for
     CT_GDB_V_6_8a)                  replace CT_GDB_V_6_8A;;
     CT_GDB_V_7_0a)                  replace CT_GDB_V_7_0_1A;;
     CT_GDB_V_7_0_1a)                replace CT_GDB_V_7_0_1A;;
